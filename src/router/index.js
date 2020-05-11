@@ -6,6 +6,9 @@ import TakePhoto from '@/views/TakePhoto.vue'
 import BtDate from '@/views/BtDate.vue'
 import RemoveLog from '@/views/RemoveLog.vue'
 import Cropper from '@/views/Cropper.vue'
+import TouchDirective from '@/views/TouchDirective'
+import BetterScroll from '@/views/BetterScroll'
+import Clipboard from '@/views/Clipboard'
 
 Vue.use(VueRouter)
 
@@ -37,8 +40,23 @@ const routes = [
 	},
 	{
 		path:'/cropper',
-		name:Cropper,
+		name:'Cropper',
 		component:Cropper
+	},
+	{
+		path:'/touchdirective',
+		name:'TouchDirective',
+		component:TouchDirective
+	},
+	{
+		path:'/betterscroll',
+		name:'BetterScroll',
+		component:BetterScroll
+	},
+	{
+		path:'/clipboard',
+		name:'Clipboard',
+		component:Clipboard
 	}
 ]
 

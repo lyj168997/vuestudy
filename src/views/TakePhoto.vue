@@ -1,12 +1,17 @@
 <template>
     <div class="content">
+        <BackHeader></BackHeader>
         移动端拍照上传图片翻转问题
         <input type="file" accept="image/*" @change="uploadImg"/>
     </div>
 </template>
 <script>
 import {EXIF} from 'exif-js';//旋转图片
+import BackHeader from '@/components/BackHeader';
 export default {
+    components:{
+        BackHeader
+    },
     methods:{
          /* 上传图片 */
          uploadImg(event){

@@ -21,6 +21,9 @@ export default {
 				{"id":6,"name":"自定义移动端touch相关指令","path":'/touchdirective'},
 				{"id":7,"name":"移动端better-scroll插件使用","path":'/betterscroll'},
 				{"id":8,"name":"长按操作框的复制功能的实现","path":'/clipboard'},
+				{"id":9,"name":"在项目的子目录中构建vue项目-打包目录配置","path":'/buildconfig'},
+				{"id":10,"name":"vue中引用全局样式","path":'/wholestyle'},
+				{"id":11,"name":"关于引入文件方式","path":'/aboutimport'},
 			]
 		}
 	}

@@ -9,6 +9,9 @@ import Cropper from '@/views/Cropper.vue'
 import TouchDirective from '@/views/TouchDirective'
 import BetterScroll from '@/views/BetterScroll'
 import Clipboard from '@/views/Clipboard'
+import BuildConfig from '@/views/BuildConfig'
+import WholeStyle from '@/views/WholeStyle'
+import AboutImport from '@/views/AboutImport'
 
 Vue.use(VueRouter)
 
@@ -57,6 +60,21 @@ const routes = [
 		path:'/clipboard',
 		name:'Clipboard',
 		component:Clipboard
+	},
+	{
+		path:'/buildconfig',
+		name:'BuildConfig',
+		component:BuildConfig
+	},
+	{
+		path:'/wholestyle',
+		name:'WholeStyle',
+		component:WholeStyle
+	},
+	{
+		path:'/aboutimport',
+		name:'AboutImport',
+		component:AboutImport
 	}
 ]
 
